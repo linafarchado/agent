@@ -1,0 +1,117 @@
+{
+  "overview": {
+    "title": "Machine Learning Engineer",
+    "expertise": "Generative modeling, computer vision, and production system deployment",
+    "experience_summary": "Proven track record building end-to-end ML pipelines from research prototyping to scalable applications serving millions of requests",
+    "passion": "Transforming complex data challenges into impactful, production-ready solutions while continuously expanding technical expertise across emerging AI domains"
+  },
+  "experience": {
+    "current": {
+      "role": "R&D Intern in AI for Medical Imaging",
+      "company": "GE Healthcare France",
+      "period": "February 2025 – August 2025",
+      "achievements": [
+        "Developed 3+ super-resolution models for CT scan enhancement, achieving up to 14% PSNR improvement and 12% SSIM improvement over bicubic interpolation baseline",
+        "Integrated models into browser-based inference pipeline using ONNX.js and WebGPU, enabling real-time processing",
+        "Built interactive dashboards for model performance monitoring and clinical validation across deployment environments",
+        "Ensured clinical-grade standards through robust testing and validation in constrained medical imaging contexts"
+      ]
+    },
+    "previous": {
+      "role": "Full-Stack Engineering Intern",
+      "company": "CastorDoc France",
+      "period": "September 2023 – January 2024",
+      "achievements": [
+        "Shipped 20+ major features including External Links API serving 1M+ calls/month and Chrome Extension used by 300+ users",
+        "Added 100+ unit and integration tests across TypeScript/React/Node.js codebase ensuring robust code quality",
+        "Collaborated in an Agile/Scrum environment with cross-functional teams, participating in explorations, code reviews, and sprint planning"
+      ]
+    }
+  },
+  "education": {
+    "institution": "EPITA School of Engineering and Computer Science",
+    "location": "Paris, France",
+    "degree": "MSc in Computer Science - AI & Data Science Specialization",
+    "gpa": "3.9/4.0",
+    "period": "2020 – 2025"
+  },
+  "projects": {
+    "brain_mri": {
+      "title": "Brain MRI Generation",
+      "type": "Research Project",
+      "technologies": "Generative models, PyTorch, Segmentation",
+      "period": "February 2024 – January 2025",
+      "achievements": [
+        "Engineered generative AI pipeline processing 3D MRI volumes, increasing dataset size by 3x through synthetic data generation",
+        "Achieved up to 70% improvement in white matter segmentation accuracy and 40% in gray matter through optimized synthetic data generation pipeline",
+        "Validated synthetic data quality through downstream segmentation tasks, achieving clinical-grade performance on medical imaging benchmarks"
+      ]
+    },
+    "ai_image_service": {
+      "title": "AI Image Generation Web Service and Discord Bot",
+      "type": "Group Project",
+      "technologies": "Hugging Face, Flask, Docker, CUDA, MLOps",
+      "period": "December 2024 – January 2025",
+      "achievements": [
+        "Deployed production-ready text-to-image service using Stability AI's SDXL Turbo model supporting unlimited simultaneous users",
+        "Implemented multi-threaded architecture for handling parallel requests with seamless concurrent processing",
+        "Optimized inference pipeline achieving consistent 30-second response times for AI-generated images"
+      ]
+    },
+    "hackathon_winner": {
+      "title": "AI vs Human Text Classification - Hackathon Winner",
+      "type": "IA Data Hack",
+      "technologies": "CNN, Transformer, PyTorch, NLP",
+      "period": "February 2024",
+      "achievements": [
+        "Led 4-person cross-functional team to develop award-winning AI solution within 48-hour constraint",
+        "Secured 1st place victory among 30+ competing teams through technical excellence and innovative approach",
+        "Benchmarked 4+ deep learning architectures: 1D-adapted CNN and custom mini-transformer models"
+      ]
+    },
+    "stock_market_dashboard": {
+      "title": "Stock Market Data Pipeline and Dashboard",
+      "type": "Group Project",
+      "technologies": "SQL, TimescaleDB, Docker, Dash",
+      "period": "March – June 2024",
+      "achievements": [
+        "Designed and implemented a full data pipeline to clean, process, and batch-load large-scale stock market data into a TimescaleDB time-series database",
+        "Built an interactive dashboard with Dash to visualize market trends, compare multiple companies, and analyze data using various formats"
+      ]
+    },
+    "bomberman_backend": {
+      "title": "JWS - Online Bomberman Game Backend",
+      "type": "Solo Project",
+      "technologies": "Java, Quarkus, Hibernate, PostgreSQL, Maven",
+      "period": "February 2023",
+      "achievements": [
+        "Developed a REST API backend for an online multiplayer Bomberman game following layered architecture principles (data, domain, presentation layers)",
+        "Implemented core game mechanics including player movement, bomb placement/explosion, game state management, and turn-based gameplay",
+        "Built multiple REST endpoints for game creation, player management, game state retrieval, and player actions using Quarkus framework",
+        "Designed and implemented database schema with Hibernate ORM for persistent storage of games, players, and game maps in PostgreSQL"
+      ]
+    },
+    "film_recommender": {
+      "title": "Film Recommender System",
+      "type": "Solo Project",
+      "technologies": "Scikit-learn, Pandas, SQL, IMDb",
+      "period": "July 2024",
+      "achievements": [
+        "Integrated and cleaned movie ratings, metadata, and IMDb data into a unified database for accurate and scalable recommendation generation",
+        "Engineered features and implemented hybrid recommendation algorithm combining SVD-based collaborative filtering and content-based similarity"
+      ]
+    }
+  },
+  "skills": {
+    "languages": ["English", "French", "Arabic"],
+    "programming": ["Python", "Javascript", "Typescript", "HTML/CSS", "SQL", "PostgreSQL", "No SQL"],
+    "frameworks": ["React", "Jest", "Flask", "PyTest", "PyTorch", "TensorFlow", "Pandas", "Scikit-learn", "OpenCV"],
+    "tools": ["Git", "GitHub Actions", "CI/CD", "Docker"]
+  },
+  "contact": {
+    "phone": "+33 6 69 22 60 47",
+    "email": "l.farchado@gmail.com",
+    "linkedin": "linkedin.com/in/lina-farchado",
+    "github": "Github"
+  }
+}
