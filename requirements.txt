@@ -3,4 +3,3 @@ torch==2.0.1
 transformers==4.35.2
 ddgs
 accelerate==0.24.1
-sentencepiece==0.1.9s9
